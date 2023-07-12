@@ -16,7 +16,7 @@ yarn hardhat help
 REPORT_GAS=true yarn hardhat test
 yarn hardhat coverage
 yarn hardhat run scripts/deploy.js
-node scripts/deploy.js
+yarn scripts/deploy.js
 yarn eslint '**/*.js'
 yarn eslint '**/*.js' --fix
 yarn prettier '**/*.{json,sol,md}' --check
